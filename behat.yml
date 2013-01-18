@@ -1,0 +1,11 @@
+default:
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url:  'http://127.0.0.1:4042'
+            goutte:    ~
+
+ci:
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url:  'http://ailleurs.com'
+            goutte:    ~
